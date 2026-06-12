@@ -43,7 +43,7 @@ export default function RootLayout() {
     <>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(auth)" options={{ animation: 'fade' }} />
-        {/* <Stack.Screen name="(protected)" options={{ animation: 'fade' }} /> */}
+        <Stack.Screen name="(protected)" options={{ animation: 'fade' }} />
         <Stack.Screen name="+not-found" options={{ presentation: 'modal' }} />
       </Stack>
       <StatusBar style="auto" />
